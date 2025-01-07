@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+  <head>
+    <title>Technological Business Data</title>
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+  </head>
+  <body>
+    <h1>Technological Business Data</h1>
+    <div class="container" th:each="business : ${data}">
+      <h2 th:text="${business.name}">Business Name</h2>
+      <div th:each="sell : ${business.sellsList}">
+        <div th:if="${sell.keyboardsList}">
+          <h3>Keyboards</h3>
+          <ul>
+            <li th:each="keyboard : ${sell.keyboardsList}">
+              <a th:href="${keyboard.url}" th:text="${keyboard.name}"
+                >Keyboard Name</a
+              >
+              -
+              <span th:text="${keyboard.price}">Price</span>
+            </li>
+          </ul>
+        </div>
+        <div th:if="${sell.mousesList}">
+          <h3>Mouses</h3>
+          <ul>
+            <li th:each="mouse : ${sell.mousesList}">
+              <a th:href="${mouse.url}" th:text="${mouse.name}">Mouse Name</a> -
+              <span th:text="${mouse.price}">Price</span>
+            </li>
+          </ul>
+        </div>
+        <div th:if="${sell.monitorsList}">
+          <h3>Monitors</h3>
+          <ul>
+            <li th:each="monitor : ${sell.monitorsList}">
+              <a th:href="${monitor.url}" th:text="${monitor.name}"
+                >Monitor Name</a
+              >
+              -
+              <span th:text="${monitor.price}">Price</span>
+            </li>
+          </ul>
+        </div>
+        <div th:if="${sell.headsetList}">
+          <h3>Headsets</h3>
+          <ul>
+            <li th:each="headset : ${sell.headsetList}">
+              <a th:href="${headset.url}" th:text="${headset.name}"
+                >Headset Name</a
+              >
+              -
+              <span th:text="${headset.price}">Price</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer">
+      <p th:text="'Nombre: ' + ${info.nombre}"></p>
+      <p th:text="'Curso: ' + ${info.curso}"></p>
+    </div>
+  </body>
+</html>
