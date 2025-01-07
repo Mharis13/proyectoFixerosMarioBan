@@ -1,0 +1,839 @@
+{
+  "$schema": "http://json-schema.org/draft-04/schema#",
+  "type": "object",
+  "properties": {
+    "data": {
+      "type": "array",
+      "items": [
+        {
+          "type": "object",
+          "properties": {
+            "Business": {
+              "type": "string"
+            },
+            "Sells": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "slot": {
+                      "type": "integer"
+                    },
+                    "Keyboards": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "slot",
+                    "Keyboards"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "slot": {
+                      "type": "integer"
+                    },
+                    "Mouses": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "slot",
+                    "Mouses"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "slot": {
+                      "type": "integer"
+                    },
+                    "Monitors": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "slot",
+                    "Monitors"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "slot": {
+                      "type": "integer"
+                    },
+                    "Headsets": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "slot",
+                    "Headsets"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "Business",
+            "Sells"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Business": {
+              "type": "string"
+            },
+            "Sells": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "slot": {
+                      "type": "integer"
+                    },
+                    "Keyboards": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "slot",
+                    "Keyboards"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "slot": {
+                      "type": "integer"
+                    },
+                    "Mouses": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "slot",
+                    "Mouses"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "slot": {
+                      "type": "integer"
+                    },
+                    "Monitors": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "slot",
+                    "Monitors"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "slot": {
+                      "type": "integer"
+                    },
+                    "Headsets": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "slot",
+                    "Headsets"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "Business",
+            "Sells"
+          ]
+        },
+        {
+          "type": "object",
+          "properties": {
+            "Business": {
+              "type": "string"
+            },
+            "Sells": {
+              "type": "array",
+              "items": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "slot": {
+                      "type": "integer"
+                    },
+                    "Keyboards": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "slot",
+                    "Keyboards"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "slot": {
+                      "type": "integer"
+                    },
+                    "Mouses": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "slot",
+                    "Mouses"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "slot": {
+                      "type": "integer"
+                    },
+                    "Monitors": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "slot",
+                    "Monitors"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "slot": {
+                      "type": "integer"
+                    },
+                    "Headsets": {
+                      "type": "array",
+                      "items": [
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        },
+                        {
+                          "type": "object",
+                          "properties": {
+                            "slot": {
+                              "type": "integer"
+                            },
+                            "name": {
+                              "type": "string"
+                            },
+                            "price": {
+                              "type": "number"
+                            }
+                          },
+                          "required": [
+                            "slot",
+                            "name",
+                            "price"
+                          ]
+                        }
+                      ]
+                    }
+                  },
+                  "required": [
+                    "slot",
+                    "Headsets"
+                  ]
+                }
+              ]
+            }
+          },
+          "required": [
+            "Business",
+            "Sells"
+          ]
+        }
+      ]
+    }
+  },
+  "required": [
+    "data"
+  ]
+}
